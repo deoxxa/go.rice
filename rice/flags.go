@@ -19,9 +19,7 @@ var flags struct {
 		Executable string `long:"exec" description:"Executable to append" required:"true"`
 	} `command:"append"`
 
-	EmbedGo   struct{} `command:"embed-go" alias:"embed"`
-	EmbedSyso struct{} `command:"embed-syso"`
-	Clean     struct{} `command:"clean"`
+	Clean struct{} `command:"clean"`
 
 	Tags []string `long:"tags" description:"Tags to use with the implicit go build"`
 }

@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/GeertJohan/go.rice/embedded"
+	"github.com/deoxxa/go.rice/embedded"
 )
 
 // Box abstracts a directory for resources/files.
